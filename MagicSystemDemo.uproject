@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{4D3F3C00-4C97-68D5-E3EC-DE8177B3662F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MagicSystemDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
