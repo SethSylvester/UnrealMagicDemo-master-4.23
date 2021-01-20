@@ -26,7 +26,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void SetCursorLocation(FVector location);
+
 	UFUNCTION(BlueprintCallable)
 	void DestroyCursor();
-	void test();
 };

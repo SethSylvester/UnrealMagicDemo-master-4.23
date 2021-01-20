@@ -32,6 +32,11 @@ void ACursorCode::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 }
 
+void ACursorCode::SetCursorLocation(FVector location)
+{
+	SetActorLocation(location);
+}
+
 void ACursorCode::DestroyCursor()
 {
 	//destroy all children
