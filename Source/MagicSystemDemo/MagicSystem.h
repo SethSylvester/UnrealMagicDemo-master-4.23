@@ -3,7 +3,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "Spell.h"
+#include "CursorCode.h"
 #include "MagicSystem.generated.h"
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -71,5 +71,6 @@ private:
 	//Functions
 	FVector GetForwardRotation();
 	void ConvertHitToTransform();
+	ACursorCode cursor;
 };
 //UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
